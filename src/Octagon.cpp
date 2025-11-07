@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 
-const double PI = 3.14159265358979323846;
+const double PI = 3.1415;
 
 Octagon::Octagon(double side) : side_length(side) {
     calculateVertices();
