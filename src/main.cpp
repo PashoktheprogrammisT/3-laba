@@ -8,20 +8,20 @@
 
 // Функция для вывода меню пользователя
 void printMenu() {
-    std::cout << "1. Print all figures" << std::endl;     // Вывод всех фигур
-    std::cout << "2. Add Pentagon" << std::endl;          // Добавить пятиугольник
-    std::cout << "3. Print all areas" << std::endl;       // Вывести площади всех фигур
-    std::cout << "4. Add Hexagon" << std::endl;          // Добавить шестиугольник
+    std::cout << "1. Print all figures" << std::endl;  // Вывод всех фигур
+    std::cout << "2. Add Pentagon" << std::endl;  // Добавить пятиугольник
+    std::cout << "3. Print all areas" << std::endl;// Вывести площади всех фигур
+    std::cout << "4. Add Hexagon" << std::endl;  // Добавить шестиугольник
     std::cout << "5. Remove figure by index" << std::endl;   // Удалить фигуру по индексу
-    std::cout << "6. Print total area" << std::endl;    // Вывести общую площадь
-    std::cout << "7. Add Octagon" << std::endl;          // Добавить восьмиугольник
-    std::cout << "8. Print all centers" << std::endl;     // Вывести центры всех фигур
-    std::cout << "9. Exit" << std::endl;                    // Выход из программы
+    std::cout << "6. Print total area" << std::endl;     // Вывести общую площадь
+    std::cout << "7. Add Octagon" << std::endl;         // Добавить восьмиугольник
+    std::cout << "8. Print all centers" << std::endl;   // Вывести центры всех фигур
+    std::cout << "9. Exit" << std::endl;      // Выход из программы
 }
 
 int main(){
-    Array figures;        // Создаем массив для хранения фигур
-    int choice;           // Переменная для выбора пользователя
+    Array figures;      // Создаем массив для хранения фигур
+    int choice;    // Переменная для выбора пользователя
     
     // Бесконечный цикл меню
     while (true) {
@@ -123,6 +123,4 @@ int main(){
             }
         }
     }
-    
-    return 0;
 }
