@@ -5,13 +5,16 @@
 #include "Array.h"
 #include <memory>
 #include <cmath>
-#гугл тесты 
+
+// Тест для проверки площади пятиугольника
 TEST(PentagonTest, BasicArea) {
+    // Создаем пятиугольник со стороной 5
     Pentagon pentagon(5.0);
+    // Вычисляем ожидаемую площадь по формуле
     double expected_area = (5.0 * 5.0 * 5.0) / (4.0 * std::tan(M_PI / 5.0));
+    // Проверяем, что площадь, возвращаемая методом, очень близка к ожидаемой
     EXPECT_NEAR(pentagon.getArea(), expected_area, 1e-10);
 }
-
 TEST(PentagonTest, Center) {
     Pentagon pentagon(5.0);
     auto center = pentagon.getCenter();
