@@ -7,7 +7,6 @@
 #include "Octagon.h"
 
 void printMenu() {
-    std::cout << "\n=== Figure Management System ===" << std::endl;
     std::cout << "1. Add Pentagon" << std::endl;
     std::cout << "2. Add Hexagon" << std::endl;
     std::cout << "3. Add Octagon" << std::endl;
@@ -17,14 +16,13 @@ void printMenu() {
     std::cout << "7. Print all areas" << std::endl;
     std::cout << "8. Print total area" << std::endl;
     std::cout << "9. Exit" << std::endl;
-    std::cout << "Choose an option: ";
+
 }
 
 int main() {
     Array figures;
     int choice;
-    
-    std::cout << "Welcome to Figure Management System!" << std::endl;
+
     
     while (true) {
         printMenu();
